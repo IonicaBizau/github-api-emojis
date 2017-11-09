@@ -16,9 +16,10 @@
   ],
   "license": "MIT",
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "lib/index.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node scripts/build.js"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/github-api-emojis#readme",
@@ -43,5 +44,8 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-api-emojis/issues"
+  },
+  "devDependencies": {
+    "gh.js": "^3.0.11"
   }
 }
