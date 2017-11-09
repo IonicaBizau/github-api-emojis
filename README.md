@@ -21,7 +21,7 @@ $ npm i --save github-api-emojis
 ```js
 // Usage:
 //// Map
-const emojisMap = require("../lib/map")
+const emojisMap = require("github-api-emojis/lib/map")
 
 if (emojisMap["tada"]) {
     console.log("Yay, 'tada' exists!")
