@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save github-api-emojis
+# Using npm
+npm install --save github-api-emojis
+
+# Using yarn
+yarn add github-api-emojis
 ```
 
 
@@ -104,6 +108,11 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`showdown-emoji`](https://github.com/Bloggify/showdown-emoji#readme) (by Bloggify)—A Showdown extension for replacing emoji codes with images.
 
 ## :scroll: License
 
